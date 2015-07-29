@@ -1,17 +1,26 @@
 Proceso fibonacci
 	
+	
+	
 	Escribir "Fibonnaci, cuantos numeros desea calcular?"
 	Leer temp
 	a<-0
 	b<-1
 	
-	Para i<-1 Hasta temp Con Paso 1 Hacer
-		c<-a+b
-		escribir c
-		a<-b
-		b<-c
+	Si temp==0 Entonces
+		Escribir 0
+	Sino
+		Escribir 0
+		Para i<-1 Hasta (temp-1) Con Paso 1 Hacer
+			c<-a+b
+			escribir c
+			a<-b
+			b<-c
 			
-	Fin Para
+		Fin Para
+	Fin Si
+	
+	
 	
 	Escribir "Digite el numero para calcular la tabla"
 	Leer n1
