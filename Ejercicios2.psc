@@ -7,17 +7,25 @@ Proceso fibonacci
 	a<-0
 	b<-1
 	
-	Si temp==0 Entonces
+	Si temp==1 Entonces
 		Escribir 0
-	Sino
-		Escribir 0
-		Para i<-1 Hasta (temp-1) Con Paso 1 Hacer
-			c<-a+b
-			escribir c
-			a<-b
-			b<-c
-			
-		Fin Para
+	Sino		
+		Si temp>2 Entonces
+			escribir a
+			escribir b
+			Para i<-1 Hasta (temp-2) Con Paso 1 Hacer
+				
+				c<-a+b
+				escribir c
+				a<-b
+				b<-c
+				
+			Fin Para
+		Sino
+			escribir a
+			escribir b
+		Fin Si
+		
 	Fin Si
 	
 	
