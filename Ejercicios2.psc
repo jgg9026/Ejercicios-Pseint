@@ -64,7 +64,7 @@ Proceso fibonacci
 	
 	cont<-0
 		
-	Escribir "escriba el numero para saber si es primo"
+	Escribir "Escriba un numero para saber si es primo"
 	leer num
 	
 	Para i<-1 Hasta num Con Paso 1 Hacer
@@ -76,9 +76,9 @@ Proceso fibonacci
 	Fin Para
 	
 	Si cont==2 Entonces
-		Escribir "el numero es primo"
+		Escribir "El numero es primo"
 	Sino
-		Escribir "el numero no es primo"
+		Escribir "El numero no es primo"
 	Fin Si
 	
 	
